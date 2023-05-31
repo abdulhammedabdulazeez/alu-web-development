@@ -41,7 +41,7 @@ The following resources will be useful throughout this project:
 
 - [Figma](https://www.figma.com) - An online design tool where I can access the designer file.
 - [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML) - The Mozilla Developer Network (MDN) guide for HTML, serving as a valuable reference.
-- This is the draft-- ![Draft]([html_advanced/Html website draft.jpg](https://github.com/abdulhammedabdulazeez/alu-web-development/blob/main/html_advanced/Html%20website%20draft.jpg?raw=true))
+- This is the draft-- ![Draft](https://github.com/abdulhammedabdulazeez/alu-web-development/blob/main/html_advanced/Html%20website%20draft.jpg?raw=true)
 
 ## Contribution
 
