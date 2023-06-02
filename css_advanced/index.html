@@ -3,29 +3,20 @@
     <head>
         <title></title>
         <meta charset="UTF-8">
-      
         <link href="/html_advanced/fontawesome-free-6.4.0-web/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="\css_advanced\style.css">
 
     </head>
 
     <body>
-        <header class="header">
-            <a href="" target="_blank">
+        <header id="header">
+            <a id="logo" href="" target="_blank">
                 <i class="fa-regular fa-face-smile"> SmileSchool</i>
             </a>
-            <nav class="nav-bar">
-                <ul>
-                    <li>
-                        <a href="" target="_blank">COURSES</a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank">PRICING</a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank">LOGIN</a>
-                    </li>
-                </ul>
+            <nav id="nav-bar">
+                <a href="" target="_blank">COURSES</a>
+                <a href="" target="_blank">PRICING</a>
+                <a href="" target="_blank">LOGIN</a>
             </nav>
         </header>
 
@@ -35,37 +26,46 @@
                     <h1>
                         Get Schooled
                     </h1>
-                    <p>
-                        SMILES  GRIN LAUGH
-                    </p>
-                    <button>
+                    <div class="banner-text">
+                        <p>
+                            SMILES
+                        </p>
+                        <p>
+                            LAUGH
+                        </p>
+                        <p>
+                            GRIN
+                        </p>
+                    </div>
+                    
+                    <button class="reg-button">
                         REGISTER FOR FREE
                     </button>
                 </div>
                 <div id="pros-div">
                     <h2>
-                        Learn fron the pros
+                        <span class="secondary-color">Learn</span> from the pros
                     </h2>
                     <div id="profile-div">
-                        <div>
-                            <img src="/html_advanced/Images/1 (2).png" alt="Massey">
+                        <div class="pros-profile">
+                            <img src="\html_advanced\1.png" alt="Massey">
                             <h3>Philip Massey</h3>
                             <p>Smile of the year<br>2018-2019</p>
                         </div>
     
-                        <div>
+                        <div class="pros-profile">
                             <img src="\html_advanced\Images\6.png" alt="Lawrence">
                             <h3>Nannie Lawrence</p>
                             <p>Best little smile<br>2017</p>
                         </div>
     
-                        <div>
+                        <div class="pros-profile">
                             <img src="\html_advanced\Images\7.png" alt="Walters">
                             <h3>Bruce Walters</h3>
                             <p>Best Friend Smile <br>Live performance 2019</p>
                         </div>
     
-                        <div>
+                        <div class="pros-profile">
                             <img src="\html_advanced\Images\8.png" alt="Hughes">
                             <h3>Henry Hughes</h3>
                             <p>24h smiles winner<br>2016-2019</p>
@@ -75,44 +75,44 @@
             </section>
                 
             <section id="quote-section">
-                <div>
+                <div class="quote-block">
                     <img src="\html_advanced\Images\Bitmap (2).png" alt="">
-                </div>
-                <div id="quote-div">
-                    <blockquote>
-                        Those tutorials are concise and go straight to the point.
-                        I can't think of a better place to learn smiling. And it's so fun!
-                    </blockquote>
-                    <p>
-                        Person Name
-                    </p>
-                    <p>
-                        Weather presenter
-                    </p>
+                    <div>
+                        <blockquote>
+                            Those tutorials are concise and go straight to the point.
+                            I can't think of a better place to learn smiling. And it's so fun!
+                        </blockquote>
+                        <p class="name">
+                            Person Name
+                        </p>
+                        <p class="weather">
+                            Weather presenter
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <section id="video-section"> <!--beginning of video-section-->
                 <h1>
-                    Most popular tutorials
+                    Most <span class="secondary-color">popular</span> tutorials
                 </h1>
                 <div id="video-block">
                     <div class="video-div"> <!--video div-1-->
-                        <img src="\html_advanced\Images\Bitmap (3).png" alt="">
-                        <h2>
+                        <img class="video-img" src="\html_advanced\Images\Bitmap (3).png" alt="">
+                        <h2 class="video-title">
                             Diaogonal smile
                         </h2>
-                        <p>
+                        <p class="video-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident et ullam ipsa deleniti obcaecati magnam.
                         </p>
-                        <div> <!--author-info-->
+                        <div class="author-info"> <!--author-info-->
                             <img src="\html_advanced\Images\1 (2).png" alt="">
-                            <h3>
+                            <h3 class="author-name">
                                 Philip Massey
                             </h3>
                         </div>
-                        <div> <!--rating block-->
+                        <div class="rating-block"> <!--rating block-->
                             <div> <!-- div for rating-->
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
@@ -120,28 +120,28 @@
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                             </div>
-                            <p>
+                            <p class="video-time">
                                 8 min
                             </p>
                         </div>
                     </div>
 
                     <div class="video-div"> <!--video div-2-->
-                        <img src="\html_advanced\Images\Bitmap (4).png" alt="">
-                        <h2>
+                        <img class="video-img" src="\html_advanced\Images\Bitmap (4).png" alt="">
+                        <h2 class="video-title">
                             Diaogonal smile
                         </h2>
-                        <p>
+                        <p class="video-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident et ullam ipsa deleniti obcaecati magnam.
                         </p>
-                        <div> <!--author-info-->
+                        <div class="author-info"> <!--author-info-->
                             <img src="\html_advanced\Images\1 (2).png" alt="">
-                            <h3>
+                            <h3 class="author-name">
                                 Philip Massey
                             </h3>
                         </div>
-                        <div> <!--rating block-->
+                        <div class="rating-block"> <!--rating block-->
                             <div> <!-- div for rating-->
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
@@ -149,28 +149,28 @@
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                             </div>
-                            <p>
+                            <p class="video-time">
                                 8 min
                             </p>
                         </div>
                     </div>
 
                     <div class="video-div"> <!--video div-3-->
-                        <img src="\html_advanced\Images\Bitmap (5).png" alt="">
-                        <h2>
+                        <img class="video-img" src="\html_advanced\Images\Bitmap (5).png" alt="">
+                        <h2 class="video-title">
                             Diaogonal smile
                         </h2>
-                        <p>
+                        <p class="video-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident et ullam ipsa deleniti obcaecati magnam.
                         </p>
-                        <div> <!--author-info-->
+                        <div class="author-info"> <!--author-info-->
                             <img src="\html_advanced\Images\1 (2).png" alt="">
-                            <h3>
+                            <h3 class="author-name">
                                 Philip Massey
                             </h3>
                         </div>
-                        <div> <!--rating block-->
+                        <div class="rating-block"> <!--rating block-->
                             <div> <!-- div for rating-->
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
@@ -178,28 +178,28 @@
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                             </div>
-                            <p>
+                            <p class="video-time">
                                 8 min
                             </p>
                         </div>
                     </div>
 
                     <div class="video-div"> <!--video div-4-->
-                        <img src="\html_advanced\Images\Bitmap (6).png" alt="">
-                        <h2>
+                        <img class="video-img" src="\html_advanced\Images\Bitmap (6).png" alt="">
+                        <h2 class="video-title">
                             Diaogonal smile
                         </h2>
-                        <p>
+                        <p class="video-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Provident et ullam ipsa deleniti obcaecati magnam.
                         </p>
-                        <div> <!--author-info-->
+                        <div class="author-info"> <!--author-info-->
                             <img src="\html_advanced\Images\1 (2).png" alt="">
-                            <h3>
+                            <h3 class="author-name">
                                 Philip Massey
                             </h3>
                         </div>
-                        <div> <!--rating block-->
+                        <div class="rating-block"> <!--rating block-->
                             <div> <!-- div for rating-->
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
@@ -207,7 +207,7 @@
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                                 <img src="\alu-web-development\html_advanced\star-solid.svg" alt="">
                             </div>
-                            <p>
+                            <p class="video-time">
                                 8 min
                             </p>
                         </div>
@@ -215,12 +215,12 @@
                 </div>
             </section> <!--end of video-section-->
 
-            <section> <!--beginning of membership section-->
+            <section id="membership-section"> <!--beginning of membership section-->
                 <h1>
-                    Free membership
+                    <span class="secondary-color">Free</span> membership
                 </h1>
-                <div> <!--the block for the 4 member blocks-->
-                    <div> <!--member-block-1-->
+                <div id="membership-block"> <!--the block for the 4 member blocks-->
+                    <div class="membership-div"> <!--member-block-1-->
                         <img src="\html_advanced\face-smile-regular.svg" alt="" class="membership-img">
                         <h2>
                             Lorem ipsum
@@ -231,7 +231,7 @@
                         </p>
                     </div>
 
-                    <div> <!--member-block-2-->
+                    <div class="membership-div"> <!--member-block-2-->
                         <img src="\html_advanced\face-smile-regular.svg" alt="" class="membership-img">
                         <h2>
                             Lorem ipsum
@@ -242,7 +242,7 @@
                         </p>
                     </div>
 
-                    <div> <!--member-block-3-->
+                    <div class="membership-div"> <!--member-block-3-->
                         <img src="\html_advanced\face-smile-regular.svg" alt="" class="membership-img">
                         <h2>
                             Lorem ipsum
@@ -253,7 +253,7 @@
                         </p>
                     </div>
 
-                    <div> <!--member-block-4-->
+                    <div class="membership-div"> <!--member-block-4-->
                         <img src="\html_advanced\face-smile-regular.svg" alt="" class="membership-img">
                         <h2>
                             Lorem ipsum
@@ -265,18 +265,17 @@
                     </div>
                 </div>
 
-                <button>
+                <button class="member-reg-btn">
                     REGISTER FOR FREE
                 </button>
             </section> <!--end of membership section-->
 
-            <section> <!--beginning of FAQ section-->
+            <section id="faq-section"> <!--beginning of FAQ section-->
                 <h1>
                     F.A.Q.
                 </h1>
-                <div> <!--a block containing two rows-->
-                    <div> <!--row number-1-->
-
+                <div id="faq-block"> <!--a block containing two rows-->
+                    <div class="row-div"> <!--row number-1-->
                         <div> <!--item-1 in row-1-->
                             <h2>
                                 How does this work?
@@ -298,7 +297,7 @@
 
                     </div> <!--end of row-number-1-->
 
-                    <div> <!--row number-2-->
+                    <div class="row-div"> <!--row number-2-->
                         
                         <div> <!--item-1 in row-2-->
                             <h2>
@@ -324,18 +323,18 @@
         </main>
 
         <footer>
-            <div> <!--a global block-->
-                <div> <!--a row block-->
-                    <img src="\html_advanced\face-smile-regular.svg" alt="Logo">
-                    <div>
+            <div class="footer-global-block"> <!--a global block-->
+                <div class="footer-row-div"> <!--a row block-->
+                    <img class="footer-logo" src="\html_advanced\face-smile-regular.svg" alt="Logo">
+                    <div >
                         <a href="" target="_blank">
-                            <img src="\html_advanced\facebook.svg" alt="facebook">
+                            <img class="footer-link" src="\html_advanced\facebook.svg" alt="facebook">
                         </a>
                         <a href="" target="_blank">
-                            <img src="\html_advanced\twitter.svg" alt="twitter">
+                            <img class="footer-link" src="\html_advanced\twitter.svg" alt="twitter">
                         </a>
                         <a href="" target="_blank">
-                            <img src="\html_advanced\instagram.svg" alt="instagram">
+                            <img class="footer-link" src="\html_advanced\instagram.svg" alt="instagram">
                         </a>
                     </div>
                 </div>
