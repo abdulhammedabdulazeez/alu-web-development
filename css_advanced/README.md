@@ -9,4 +9,4 @@ This project focuses on implementing the CSS and styling for a webpage based on 
   
  ## Aim:
     The aim is to style the HTML created already in this repository with CSS and achive the final designed as that of the figma designer.
-    This is the final design: ![Final Design]()
+    This is the final design: ![Final Design](https://github.com/abdulhammedabdulazeez/alu-web-development/blob/main/css_advanced/Css%20final%20design.jpg)
