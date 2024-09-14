@@ -1,6 +1,3 @@
-from collections import OrderedDict
-
-
 class BaseCaching:
     """ BaseCaching defines:
       - constants of your caching system
@@ -31,17 +28,17 @@ class BaseCaching:
         raise NotImplementedError("get must be implemented in your cache class")
 
 
-class FIFOCache(BaseCaching):
-    def __init__(self):
-        super().__init__()
-        self.cache_data = OrderedDict()
+class BasicCache(BaseCaching):
+    """Basic cache"""
 
     def put(self, key, item):
-        if key is not None and item is not None:
-            if len(self.cache_data) >= self.MAX_ITEMS:
-                discarded_key, _ = self.cache_data.popitem(last=False)
-                print(f"DISCARD: {discarded_key}")
-            self.cache_data[key] = item
+        """Add an item in the cache"""
+        if key is None or item is None:
+            return
+        self.cache_data[key] = item
 
     def get(self, key):
-        return self.cache_data.get(key)
+        """Get an item by key"""
+        if key is None or key not in self.cache_data:
+            return None
+        return self.cache_data[key]
